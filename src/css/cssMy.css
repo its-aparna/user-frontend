@@ -1,0 +1,58 @@
+.main{
+    background: linear-gradient(to bottom, #cdeafa, #0455c0);
+}
+
+.main2{
+    background-color: whitesmoke;
+    /* opacity: 0.6; */
+    /* position: absolute; */
+}
+
+/* sign in */
+
+.mainIn{
+    background: linear-gradient(to bottom, #cdeafa, #0455c0);
+    height: 100vh;
+}
+
+/* dash sidebar */
+.sidebar{
+    height: 100vh;
+    background: linear-gradient(to bottom, #74c4ef, #0455c0);
+}
+
+#userIcon{
+    font-size: 700%;
+    width: 37%;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 7px;
+}
+
+.textsm{
+    background-color: white;
+    width: auto;
+    padding: 2%;
+    box-shadow: 1px 1px 3px 5px white;
+    border: lightblue;
+    border-radius: 3%;
+}
+
+.textlg{
+    margin-top: 9%;
+}
+
+.smdiv{
+    height: 100%;
+    /* justify-content: center; */
+}
+
+#nextdiv{
+    height: 64%;
+ 
+}
+
+#innerDiv{
+    height: 64%;
+}
+
