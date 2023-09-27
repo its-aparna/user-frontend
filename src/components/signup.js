@@ -34,18 +34,6 @@ export default function SignUp() {
         } catch (err) {
             toast.error("Invalid Information");
         }
-        event.preventDefault();
-        if (cPassword != password) {
-            toast.error("Incorrect password and confrim password");
-        } else {
-            let response = await axios.post(api.SIGN_UP, { fname: fname, lname: lname, email: email, password: password, referralCode: referralCode });
-            if (!response.data.status)
-                toast.error("SignUp not success")
-            else {
-                toast.success("SignUp Success");
-                navigate("/sign-in")
-            }
-        }
     }
 
     const toSignPage = () => {
